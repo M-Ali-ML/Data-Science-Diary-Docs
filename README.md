@@ -7,15 +7,15 @@ This repo is complementary to the [YouTube Channel](https://www.youtube.com/@dat
 
 ---
 
-## Data Science
+## Data Science & Machine Learning
 - Coming soon!
 
 
-## Data analytics
+## Data analytics & BI
 - Coming Soon!
 
 
-## Data Engineering
+## Data Engineering & Data Mining  
 * [![Youtube Link][YT logo]](https://www.youtube.com/watch?v=9zDT8n64FFU&) &nbsp; [HTTP Request](https://www.kaggle.com/code/mohamedahmedx2/asyncio-webscraping-tutorial-high-school-data) - Python | Request Library
 
 * [![Youtube Link][YT logo]](https://www.youtube.com/watch?v=bVVdPokXxH4) &nbsp; [Web Scraping ](https://www.kaggle.com/code/mohamedahmedx2/asyncio-webscraping-tutorial-high-school-data) - Python | Beautiful Soup Library
