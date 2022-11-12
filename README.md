@@ -1,5 +1,5 @@
 # Data Science Diary Docs
-This repo is complementary to the [YouTube Channel](https://www.youtube.com/@datasciencediary) [@DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for Data Science/Analytics, machine learning & Data engineering.
+This repo is complementary to the bilingual [YouTube Channel @DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for Data Science/Analytics, machine learning & Data engineering.
 
 
 [YT logo]: https://github.com/MightyStud/Data-Science-Diary-Docs/blob/main/other/youtube_logo.png
