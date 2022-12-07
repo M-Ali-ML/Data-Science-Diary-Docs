@@ -12,6 +12,8 @@ This repo is complementary to the bilingual [YouTube Channel @DataScienceDiary](
 
 - [![Youtube Link](other/youtube_logo.png)](https://youtu.be/6_GIck6QkBs) &nbsp; [Streamlit Basics Pt.1](https://github.com/MightyStud/High-School-Data-Analysis-Streamlit-App) - Setting Up & Data Viz
 
+- [![Youtube Link](other/youtube_logo.png)](https://youtu.be/6HlSaLuqw3w) &nbsp; [Streamlit Basics Pt.2](https://github.com/MightyStud/High-School-Data-Analysis-Streamlit-App) - Multi-pages & Deployment
+
 ## Data Engineering & Data Mining  
 
 - [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=9zDT8n64FFU&) &nbsp; [HTTP Request](https://www.kaggle.com/code/mohamedahmedx2/asyncio-webscraping-tutorial-high-school-data) - Request Library
