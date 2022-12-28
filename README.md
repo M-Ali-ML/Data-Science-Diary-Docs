@@ -1,6 +1,6 @@
 # Data Science Diary Docs
 
-This repo is complementary to the bilingual (Arabic-English) [YouTube Channel @DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for aspiring data enthusiasts.
+This repo is complementary to the bilingual (Arabic-English) [YouTube Channel @DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for aspiring data enthusiasts. [Work in progress]
 
 ---
 
