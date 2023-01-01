@@ -6,7 +6,7 @@ This repo is complementary to the bilingual (Arabic-English) [YouTube Channel @D
 
 ## Data Science & Machine Learning
 
-- Coming soon!
+- [![Youtube Link](other/youtube_logo.png)](https://youtu.be) &nbsp; [Neural Network NumPy](DS_ML\neural_network_numpy.py) - Build a simple neural network from scratch
 
 ## Data analytics & BI
 
