@@ -75,7 +75,7 @@ def back_prop(AL, Y, caches):
     curr_cache = caches[L - 1]
     lin_cache, act_cache = curr_cache
     one_hot_Y = one_hot(Y)
-    dAL = (AL - one_hot_Y)
+    dAL = AL - one_hot_Y
     grads["dW" + str(L)] = 1. / m * np.dot(dAL, lin_cache[0].T)
     grads["db" + str(L)] = 1. / m * np.sum(dAL, axis=1, keepdims=True)
     grads["dA" + str(L - 1)] = np.dot(lin_cache[1].T, dAL)
@@ -132,7 +132,7 @@ def load_train():
 
     return X_train, Y_train, X_val, Y_val
 
-def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True, X_test=None):
+def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True):
     costs = []
     params = init_params(layer_dim)
 
@@ -146,10 +146,7 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True, X_test=None):
             print(f"Cost after iteration {i}: {cost}")
         if i % 100 or i == num_iter:
             costs.append(cost)
-    
-    if X_test:
-        probas, _ = for_prop(X_test, params)
-        probas = np.argmax(probas, 0)
+
         
     return params, costs
 
