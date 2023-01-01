@@ -146,7 +146,6 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True):
             print(f"Cost after iteration {i}: {cost}")
         if i % 100 or i == num_iter:
             costs.append(cost)
-
         
     return params, costs
 
