@@ -158,7 +158,7 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True, X_test=None):
 
 layer_dim = [784,24,18,10]  
 X_train, Y_train, X_val, Y_val = load_train()
-params, costs = NN(X_train, Y_train, layer_dim, lr=0.009, num_iter=1000, verbose=True)
+params, costs = NN(X_train, Y_train, layer_dim, lr=0.03, num_iter=500, verbose=True)
 pred_train = predict(X_train, Y_train, params, 'train')
 pred_val = predict(X_val, Y_val, params, 'val')
 
