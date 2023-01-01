@@ -144,8 +144,6 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True, X_test=None):
 
         if verbose and i % 100 == 0 or i == num_iter - 1:
             print(f"Cost after iteration {i}: {cost}")
-            _ = predict(X, Y, params, 'train')
-            _ = predict(X_val, Y_val, params, 'val')
         if i % 100 or i == num_iter:
             costs.append(cost)
     
@@ -161,8 +159,8 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True, X_test=None):
 layer_dim = [784,24,18,10]  
 X_train, Y_train, X_val, Y_val = load_train()
 params, costs = NN(X_train, Y_train, layer_dim, lr=0.009, num_iter=1000, verbose=True)
-#pred_train = predict(X_train, Y_train, params, 'train')
-#pred_val = predict(X_val, Y_val, params, 'val')
+pred_train = predict(X_train, Y_train, params, 'train')
+pred_val = predict(X_val, Y_val, params, 'val')
 
 
 
