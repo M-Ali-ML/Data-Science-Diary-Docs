@@ -75,10 +75,10 @@ def back_prop(AL, Y, caches):
     curr_cache = caches[L - 1]
     lin_cache, act_cache = curr_cache
     one_hot_Y = one_hot(Y)
-    dAL = AL - one_hot_Y
-    grads["dW" + str(L)] = 1. / m * np.dot(dAL, lin_cache[0].T)
-    grads["db" + str(L)] = 1. / m * np.sum(dAL, axis=1, keepdims=True)
-    grads["dA" + str(L - 1)] = np.dot(lin_cache[1].T, dAL)
+    dZ = AL - one_hot_Y
+    grads["dW" + str(L)] = 1. / m * np.dot(dZ, lin_cache[0].T)
+    grads["db" + str(L)] = 1. / m * np.sum(dZ, axis=1, keepdims=True)
+    grads["dA" + str(L - 1)] = np.dot(lin_cache[1].T, dZ)
 
     for l in reversed(range(L - 1)):
         curr_cache = caches[l]
