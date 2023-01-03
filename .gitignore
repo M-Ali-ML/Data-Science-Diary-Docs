@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/
+DS_ML/neural_network_numpy_binary_helper_not_complete.py
