@@ -110,7 +110,7 @@ def predict(X, Y, params, subset='data'):
 
 
 def load_train():
-    orig_train = pd.read_csv("datasets/MNIST/train.zip", compression='zip')
+    orig_train = pd.read_csv("DS_ML\datasets\MNIST\train.zip", compression='zip')
 
     orig_train = np.array(orig_train)
     np.random.shuffle(orig_train)
