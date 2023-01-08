@@ -2,11 +2,13 @@
 
 This repo is complementary to the bilingual (Arabic-English) [YouTube Channel @DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for aspiring data enthusiasts. [Work in progress]
 
+Some of the animation used in the youtube channel are made using [manim](https://github.com/3b1b/manim). The [manim-videos](https://github.com/MightyStud/manim-videos) repo contains the python code used in the videos.
+
 ---
 
 ## Data Science & Machine Learning
 
-- [![Youtube Link](other/youtube_logo.png)](https://youtu.be) &nbsp; [Neural Network NumPy](DS_ML/neural_network_numpy.py) - Build a simple neural network from scratch
+- [![Youtube Link](other/youtube_logo.png)](https://youtu.be) &nbsp; [Neural Network NumPy](DS_ML/neural_network) - Build a simple neural network from scratch
 
 ## Data analytics & BI
 
