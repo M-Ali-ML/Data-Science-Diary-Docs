@@ -2,9 +2,9 @@
 
 This repo is complementary to the bilingual (Arabic-English) [YouTube Channel @DataScienceDiary](https://www.youtube.com/@datasciencediary). It is meant as resource for aspiring data enthusiasts. [Work in progress]
 
-##### Some of the animation used in the youtube channel are made using [manim](https://github.com/3b1b/manim). The [manim-videos](https://github.com/MightyStud/manim-videos) repo contains the python code used in the videos
+Some of the animation used in the youtube channel are made using [manim](https://github.com/3b1b/manim). The [manim-videos](https://github.com/MightyStud/manim-videos) repo contains the python code used in the videos
 
-##### Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video link
+Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video link
 
 ---
 
