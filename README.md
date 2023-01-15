@@ -10,7 +10,7 @@ Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video 
 
 ## Data Science & Machine Learning
 
-- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) &nbsp; [Neural Network | حلالة المشاكل](DS_ML/neural_network) - How can a Neural network learn basically anything!
+- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) &nbsp; [Neural Network | حلالة المشاكل](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) - How can a Neural network learn basically anything!
 
 ## Data analytics & BI
 
