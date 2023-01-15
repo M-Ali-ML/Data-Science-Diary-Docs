@@ -10,7 +10,7 @@ Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video 
 
 ## Data Science & Machine Learning
 
-- [![Youtube Link](other/youtube_logo.png)](https://youtu.be) &nbsp; [Neural Network NumPy](DS_ML/neural_network) - Build a simple neural network from scratch
+- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) &nbsp; [Neural Network | حلالة المشاكل](DS_ML/neural_network) - How does a Neural network basically learn anything!
 
 ## Data analytics & BI
 
