@@ -12,6 +12,9 @@ Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video 
 
 - [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) &nbsp; [Neural Network | حلالة المشاكل](https://www.youtube.com/watch?v=cB04T2ooh6E&feature=youtu.be) - How can a Neural network learn basically anything!
 
+- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=eRlN5V2w3p0) &nbsp; [Gradient descent | معادلات النيورال نيتورك
+](https://www.youtube.com/watch?v=eRlN5V2w3p0) - The Math behind the neural network explained.
+
 ## Data analytics & BI
 
 - [![Youtube Link](other/youtube_logo.png)](https://youtu.be/6_GIck6QkBs) &nbsp; [Streamlit Basics Pt.1](https://github.com/MightyStud/High-School-Data-Analysis-Streamlit-App) - Setting Up & Data Viz
