@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 
 def init_params(layer_dim):
-    np.random.seed(2)
     params = {}
     L = len(layer_dim)
     for l in range(1, L):
@@ -151,7 +150,7 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True):
 
 
 # train model
-
+np.random.seed(2)
 layer_dim = [784,24,18,10]  
 X_train, Y_train, X_val, Y_val = load_train()
 params, costs = NN(X_train, Y_train, layer_dim, lr=0.03, num_iter=500, verbose=True)
