@@ -61,7 +61,7 @@ def for_prop(X, params):
 def calc_cost(AL, Y):
     m = Y.shape[1]
     Y = one_hot(Y)
-    cost = np.min(-(1. / m) * (np.dot(Y, np.log(AL).T)))
+    cost = -(1. / m) * np.sum(np.dot(Y, np.log(AL).T))
     return cost
     
 
@@ -109,7 +109,7 @@ def predict(X, Y, params, subset='data'):
 
 
 def load_train():
-    orig_train = pd.read_csv("DS_ML\datasets\MNIST\train.zip", compression='zip')
+    orig_train = pd.read_csv("DS_ML/datasets/MNIST/train.zip", compression='zip')
 
     orig_train = np.array(orig_train)
     np.random.shuffle(orig_train)
@@ -143,7 +143,6 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True):
 
         if verbose and i % 100 == 0 or i == num_iter - 1:
             print(f"Cost after iteration {i}: {cost}")
-        if i % 100 or i == num_iter:
             costs.append(cost)
         
     return params, costs
@@ -153,7 +152,7 @@ def NN(X, Y, layer_dim, lr=0.01, num_iter=500, verbose=True):
 np.random.seed(2)
 layer_dim = [784,24,18,10]  
 X_train, Y_train, X_val, Y_val = load_train()
-params, costs = NN(X_train, Y_train, layer_dim, lr=0.03, num_iter=500, verbose=True)
+params, costs = NN(X_train, Y_train, layer_dim, lr=0.1, num_iter=400, verbose=True)
 pred_train = predict(X_train, Y_train, params, 'train')
 pred_val = predict(X_val, Y_val, params, 'val')
 
