@@ -14,8 +14,9 @@ Click on the YouTube icon ![Youtube Link](other/youtube_logo.png) for the video 
 
 - [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=eRlN5V2w3p0) &nbsp; [Gradient descent | معادلات النيورال نيتورك
 ](https://www.youtube.com/watch?v=eRlN5V2w3p0) - The Math behind the neural network explained.
-- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=bEYQBLPWfks&t=2s) &nbsp; [Neural Network without TensorFlow, PyTorch or SciKit-learn | النيورال نيتورك من الأَلِف الى الياء
-](https://www.youtube.com/watch?v=eRlN5V2w3p0)
+
+- [![Youtube Link](other/youtube_logo.png)](https://www.youtube.com/watch?v=bEYQBLPWfks) &nbsp; [Neural Network without TensorFlow, PyTorch or SciKit-learn | النيورال نيتورك من الأَلِف الى الياء
+](https://www.youtube.com/watch?v=bEYQBLPWfks)
 
 ## Data analytics & BI
 
